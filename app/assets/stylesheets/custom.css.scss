@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
@@ -299,5 +300,16 @@ span.picture {
   margin-top: 10px;
   input {
     border: 0;
+  }
+}
+
+
+@media all and (min-width: 360px) and (max-width: 640px) {
+  body{
+    background-color: #c2c2c2;
+  }
+  
+  nav ul li {
+    float: right;
   }
 }
