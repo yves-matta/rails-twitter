@@ -308,8 +308,17 @@ span.picture {
   body{
     background-color: #c2c2c2;
   }
+  #logo{
+    
+  margin-right: 5px;
+  font-size: 1.6em;
+  }
   
+  
+  nav ul {
+    float:right;
+  }
   nav ul li {
-    float: right;
+    float: left;
   }
 }
